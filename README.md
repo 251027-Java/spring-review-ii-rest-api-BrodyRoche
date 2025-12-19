@@ -32,6 +32,8 @@ Create `BookController.java` that exposes REST endpoints:
 1. Add `debug=true` to application.properties
 2. Run application and find the "CONDITIONS EVALUATION REPORT"
 3. Document which DataSource and JPA provider were configured
+    * DataSource: HikariCP
+    * JPA provider: Hibernate
 
 ### Task 3: Configure Profiles
 Create two profile-specific config files:
